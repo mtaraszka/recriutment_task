@@ -18,18 +18,16 @@
   padding-bottom: 0.5rem;
   border-bottom: solid;
   border-bottom-width: 1px;
-}
-
-.table-styles tr {
   display: flex;
   gap: 1rem;
+  text-align: left;
 }
 
-.table-styles tr:first-child {
+.table-styles thead tr {
   font-weight: bold;
   border-bottom-width: 2px;
 }
 
-.table-styles tr td {
+.table-styles tr td, .table-styles th {
   flex: 1;
 }
